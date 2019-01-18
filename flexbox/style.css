@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container > div {
+    height: 100px;
+}
+
+.box1 {
+    width: 100%;
+    order: 1;
+    background: chartreuse;
+}
+
+.box2 {
+    width: 50%;
+    order: 2;
+    background: red;
+}
+
+.box3 {
+    width: 50%;
+    order: 3;
+    background: orange;
+}
+
+.box4 {
+    width: 100%;
+    order: 4;
+    background: seagreen;
+}
+
+.box5 {
+    width: 20%;
+    order: 5;
+    background: lightblue;
+}
+
+.box6 {
+    width: 60%;
+    order: 6;
+    background: darkblue;
+}
+
+.box7 {
+    width: 20%;
+    order: 7;
+    background: green;
+}
